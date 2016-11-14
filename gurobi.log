@@ -475,3 +475,1715 @@ Copyright (c) 2016, Gurobi Optimization, Inc.
 
 ERROR 10003: Unable to open file 'TEST.lp' for input
 
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:04:27 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:07:29 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:25:34 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:26:24 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:26:45 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:27:10 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:27:45 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:28:08 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:28:57 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:29:08 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:31:24 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:31:56 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7228 rows, 3242 columns, 23471 nonzeros
+Optimize a model with 7228 rows, 3242 columns and 23471 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3543 rows and 1350 columns
+Presolve time: 0.22s
+Presolved: 3685 rows, 1892 columns, 12508 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.753154e+03, 3735 iterations, 0.23 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4753.15431    0  580 38118.6632 4753.15431  87.5%     -    0s
+H    0     0                    37728.673684 4753.15431  87.4%     -    0s
+     0     0 10222.2066    0  648 37728.6737 10222.2066  72.9%     -    1s
+H    0     0                    34818.689474 10222.2066  70.6%     -    1s
+     0     0 10271.0367    0  624 34818.6895 10271.0367  70.5%     -    1s
+     0     0          -    0      34818.6895 10271.0367  70.5%     -    1s
+
+Cutting planes:
+  Gomory: 9
+  Cover: 163
+  Implied bound: 105
+  Clique: 89
+  MIR: 56
+  Flow cover: 12
+  GUB cover: 4
+  Zero half: 16
+
+Explored 0 nodes (5628 simplex iterations) in 1.51 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 3.481868947368e+04, best bound 1.027103684211e+04, gap 70.5014%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:39:11 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.05 seconds
+(null): 7245 rows, 3242 columns, 23709 nonzeros
+Optimize a model with 7245 rows, 3242 columns and 23709 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3842 rows and 1488 columns
+Presolve time: 0.20s
+Presolved: 3403 rows, 1754 columns, 11960 nonzeros
+Variable types: 0 continuous, 1754 integer (1283 binary)
+Found heuristic solution: objective 38068.642105
+
+Root relaxation: objective 4.884042e+03, 3673 iterations, 0.23 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4884.04187    0  508 38068.6421 4884.04187  87.2%     -    0s
+H    0     0                    37453.657895 4884.04187  87.0%     -    0s
+     0     0 10474.0390    0  564 37453.6579 10474.0390  72.0%     -    0s
+H    0     0                    34543.673684 10474.0390  69.7%     -    0s
+     0     0 10528.4113    0  498 34543.6737 10528.4113  69.5%     -    1s
+     0     0 10941.8443    0  596 34543.6737 10941.8443  68.3%     -    1s
+H    0     0                    33073.710526 10941.8443  66.9%     -    1s
+     0     0 11077.0961    0  583 33073.7105 11077.0961  66.5%     -    1s
+     0     0 11222.2739    0  591 33073.7105 11222.2739  66.1%     -    1s
+H    0     0                    27698.694737 11222.2739  59.5%     -    1s
+H    0     0                    25358.694737 11222.2739  55.7%     -    1s
+     0     0 11262.6798    0  579 25358.6947 11262.6798  55.6%     -    1s
+     0     0 11329.2054    0  602 25358.6947 11329.2054  55.3%     -    1s
+H    0     0                    25193.700000 11329.2054  55.0%     -    1s
+     0     0 11360.1952    0  627 25193.7000 11360.1952  54.9%     -    1s
+     0     0 11422.8875    0  606 25193.7000 11422.8875  54.7%     -    2s
+H    0     0                    25143.700000 11422.8875  54.6%     -    2s
+     0     0 11455.4673    0  589 25143.7000 11455.4673  54.4%     -    2s
+     0     0 11504.9805    0  585 25143.7000 11504.9805  54.2%     -    2s
+H    0     0                    25113.700000 11504.9805  54.2%     -    2s
+     0     0 11605.1906    0  621 25113.7000 11605.1906  53.8%     -    2s
+     0     0 11714.3573    0  626 25113.7000 11714.3573  53.4%     -    2s
+H    0     0                    25103.700000 11714.3573  53.3%     -    2s
+     0     0 11731.8528    0  617 25103.7000 11731.8528  53.3%     -    2s
+     0     0 11764.7925    0  631 25103.7000 11764.7925  53.1%     -    2s
+H    0     0                    25023.752632 11764.7925  53.0%     -    3s
+     0     0 11793.7216    0  630 25023.7526 11793.7216  52.9%     -    3s
+     0     0 11808.7727    0  665 25023.7526 11808.7727  52.8%     -    3s
+     0     0 11808.7727    0  659 25023.7526 11808.7727  52.8%     -    3s
+H    0     0                    22138.526316 11808.7727  46.7%     -    6s
+     0     2 11808.7727    0  639 22138.5263 11808.7727  46.7%     -    6s
+   167   136     cutoff   88      22138.5263 19602.6014  11.5%   131   10s
+*  559   357             155    21933.578947 19603.4875  10.6%  83.4   12s
+   705   495 20579.5745   44  331 21933.5789 19642.1301  10.4%  91.8   15s
+H  732   497                    21768.678947 19642.1301  9.77%  90.9   15s
+H  733   472                    21708.768421 19642.1301  9.52%  90.8   16s
+H  735   451                    21548.773684 19642.1301  8.85%  90.5   17s
+H  737   429                    21498.631579 19642.1301  8.64%  90.3   17s
+H  743   411                    21498.584211 19642.1301  8.64%  89.6   19s
+   745   412 20304.1660   36  371 21498.5842 19642.1301  8.64%  89.3   20s
+   756   420 21498.5842   35  423 21498.5842 19642.1301  8.64%  88.0   26s
+H  757   399                    21418.721053 19642.1301  8.29%  87.9   29s
+
+Cutting planes:
+  Gomory: 14
+  Cover: 174
+  Implied bound: 65
+  Clique: 44
+  MIR: 49
+  Flow cover: 51
+  GUB cover: 10
+  Zero half: 16
+
+Explored 757 nodes (97481 simplex iterations) in 29.28 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.141872105263e+04, best bound 1.964213157895e+04, gap 8.2946%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:40:55 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:41:17 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:41:49 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7245 rows, 3242 columns, 23485 nonzeros
+Optimize a model with 7245 rows, 3242 columns and 23485 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.01 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:42:10 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7245 rows, 3242 columns, 23485 nonzeros
+Optimize a model with 7245 rows, 3242 columns and 23485 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve time: 0.00s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:43:03 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23485 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23485 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3543 rows and 1350 columns
+Presolve time: 0.17s
+Presolved: 3686 rows, 1892 columns, 12521 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.753154e+03, 3839 iterations, 0.26 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4753.15431    0  580 38118.6632 4753.15431  87.5%     -    0s
+H    0     0                    37718.673684 4753.15431  87.4%     -    0s
+     0     0 10217.0128    0  664 37718.6737 10217.0128  72.9%     -    0s
+H    0     0                    36153.468421 10217.0128  71.7%     -    0s
+H    0     0                    32813.600000 10217.0128  68.9%     -    0s
+     0     0 10271.3140    0  603 32813.6000 10271.3140  68.7%     -    1s
+     0     0 10517.2642    0  714 32813.6000 10517.2642  67.9%     -    1s
+H    0     0                    31968.621053 10517.2642  67.1%     -    1s
+     0     0 10552.5165    0  738 31968.6211 10552.5165  67.0%     -    1s
+     0     0 10736.3944    0  698 31968.6211 10736.3944  66.4%     -    1s
+H    0     0                    31503.626316 10736.3944  65.9%     -    1s
+     0     0 10780.1801    0  692 31503.6263 10780.1801  65.8%     -    1s
+     0     0 10999.5296    0  824 31503.6263 10999.5296  65.1%     -    2s
+H    0     0                    29433.510526 10999.5296  62.6%     -    2s
+H    0     0                    25393.636842 10999.5296  56.7%     -    2s
+     0     0 11038.8347    0  766 25393.6368 11038.8347  56.5%     -    2s
+     0     0 11202.1165    0  805 25393.6368 11202.1165  55.9%     -    2s
+H    0     0                    24983.594737 11202.1165  55.2%     -    2s
+     0     0 11239.0385    0  838 24983.5947 11239.0385  55.0%     -    2s
+     0     0 11320.9634    0  889 24983.5947 11320.9634  54.7%     -    3s
+     0     0 11361.7318    0  763 24983.5947 11361.7318  54.5%     -    3s
+     0     0 11397.7354    0  943 24983.5947 11397.7354  54.4%     -    3s
+     0     0 11413.9609    0  927 24983.5947 11413.9609  54.3%     -    3s
+     0     0 11445.6604    0  989 24983.5947 11445.6604  54.2%     -    3s
+     0     0 11445.6604    0  983 24983.5947 11445.6604  54.2%     -    3s
+H    0     0                    24963.594737 11445.6604  54.2%     -    5s
+H    0     0                    22178.631579 11445.6604  48.4%     -    6s
+     0     2 11445.6604    0  972 22178.6316 11445.6604  48.4%     -    6s
+
+Cutting planes:
+  Gomory: 9
+  Cover: 172
+  Implied bound: 94
+  Clique: 178
+  MIR: 81
+  Flow cover: 12
+  GUB cover: 6
+  Zero half: 1
+
+Explored 6 nodes (12987 simplex iterations) in 7.68 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.217863157895e+04, best bound 1.211092105263e+04, gap 45.3937%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:44:24 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23485 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23485 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3570 rows and 1363 columns
+Presolve time: 0.19s
+Presolved: 3659 rows, 1879 columns, 12456 nonzeros
+Variable types: 0 continuous, 1879 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.757170e+03, 3746 iterations, 0.26 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4757.16988    0  579 38118.6632 4757.16988  87.5%     -    0s
+H    0     0                    36098.494737 4757.16988  86.8%     -    0s
+H    0     0                    31738.742105 4757.16988  85.0%     -    0s
+     0     0 10217.8961    0  650 31738.7421 10217.8961  67.8%     -    0s
+H    0     0                    30578.731579 10217.8961  66.6%     -    1s
+     0     0 10270.6611    0  607 30578.7316 10270.6611  66.4%     -    1s
+     0     0 10523.0022    0  801 30578.7316 10523.0022  65.6%     -    1s
+H    0     0                    28768.852632 10523.0022  63.4%     -    1s
+     0     0 10573.0849    0  749 28768.8526 10573.0849  63.2%     -    1s
+     0     0 10670.5165    0  739 28768.8526 10670.5165  62.9%     -    1s
+H    0     0                    28608.857895 10670.5165  62.7%     -    1s
+     0     0 10713.8766    0  731 28608.8579 10713.8766  62.6%     -    2s
+     0     0 10980.8156    0  713 28608.8579 10980.8156  61.6%     -    2s
+H    0     0                    28468.868421 10980.8156  61.4%     -    2s
+     0     0 11067.8952    0  734 28468.8684 11067.8952  61.1%     -    2s
+     0     0 11148.0119    0  752 28468.8684 11148.0119  60.8%     -    2s
+     0     0 11169.1821    0  770 28468.8684 11169.1821  60.8%     -    2s
+     0     0 11309.8187    0  824 28468.8684 11309.8187  60.3%     -    3s
+     0     0 11352.4976    0  807 28468.8684 11352.4976  60.1%     -    3s
+     0     0 11385.3923    0  846 28468.8684 11385.3923  60.0%     -    3s
+H    0     0                    28003.836842 11385.3923  59.3%     -    3s
+     0     0 11408.3701    0  827 28003.8368 11408.3701  59.3%     -    3s
+     0     0 11447.2513    0  746 28003.8368 11447.2513  59.1%     -    3s
+H    0     0                    27953.836842 11447.2513  59.0%     -    3s
+     0     0 11495.9136    0  836 27953.8368 11495.9136  58.9%     -    4s
+
+Cutting planes:
+  Gomory: 8
+  Cover: 183
+  Implied bound: 92
+  Clique: 185
+  MIR: 55
+  Flow cover: 22
+  GUB cover: 7
+  Zero half: 1
+
+Explored 0 nodes (11191 simplex iterations) in 4.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.795383684211e+04, best bound 1.149591578947e+04, gap 58.8754%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:45:46 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7230 rows, 3242 columns, 23499 nonzeros
+Optimize a model with 7230 rows, 3242 columns and 23499 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3619 rows and 1384 columns
+Presolve time: 0.21s
+Presolved: 3611 rows, 1858 columns, 12346 nonzeros
+Variable types: 0 continuous, 1858 integer (1283 binary)
+Found heuristic solution: objective 38078.647368
+
+Root relaxation: objective 4.807880e+03, 3656 iterations, 0.21 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4807.88031    0  557 38078.6474 4807.88031  87.4%     -    0s
+H    0     0                    37628.663158 4807.88031  87.2%     -    0s
+     0     0 9528.09036    0  623 37628.6632 9528.09036  74.7%     -    0s
+H    0     0                    34648.678947 9528.09036  72.5%     -    1s
+     0     0 9621.45798    0  615 34648.6789 9621.45798  72.2%     -    1s
+     0     0 10591.9471    0  572 34648.6789 10591.9471  69.4%     -    1s
+H    0     0                    30793.757895 10591.9471  65.6%     -    1s
+     0     0 10621.1480    0  626 30793.7579 10621.1480  65.5%     -    1s
+     0     0 10740.3301    0  732 30793.7579 10740.3301  65.1%     -    1s
+     0     0 10795.5781    0  739 30793.7579 10795.5781  64.9%     -    2s
+     0     0 10864.9420    0  723 30793.7579 10864.9420  64.7%     -    2s
+H    0     0                    30793.615789 10864.9420  64.7%     -    2s
+     0     0 10884.8113    0  784 30793.6158 10884.8113  64.7%     -    2s
+     0     0 11080.3531    0  631 30793.6158 11080.3531  64.0%     -    2s
+H    0     0                    30698.668421 11080.3531  63.9%     -    2s
+     0     0 11155.7450    0  739 30698.6684 11155.7450  63.7%     -    2s
+     0     0 11199.1746    0  687 30698.6684 11199.1746  63.5%     -    3s
+H    0     0                    30638.668421 11199.1746  63.4%     -    3s
+     0     0 11211.8036    0  732 30638.6684 11211.8036  63.4%     -    3s
+     0     0 11256.0373    0  693 30638.6684 11256.0373  63.3%     -    3s
+H    0     0                    24783.721053 11256.0373  54.6%     -    3s
+H    0     0                    23148.863158 11256.0373  51.4%     -    3s
+     0     0 11277.8152    0  648 23148.8632 11277.8152  51.3%     -    3s
+     0     0 11323.1229    0  702 23148.8632 11323.1229  51.1%     -    3s
+H    0     0                    22958.847368 11323.1229  50.7%     -    3s
+     0     0 11355.8162    0  735 22958.8474 11355.8162  50.5%     -    3s
+     0     0 11383.6531    0  737 22958.8474 11383.6531  50.4%     -    3s
+H    0     0                    22898.894737 11383.6531  50.3%     -    4s
+     0     0 11402.3696    0  713 22898.8947 11402.3696  50.2%     -    4s
+     0     0 11468.3736    0  803 22898.8947 11468.3736  49.9%     -    4s
+     0     0 11475.4510    0  767 22898.8947 11475.4510  49.9%     -    4s
+     0     0 11520.2488    0  791 22898.8947 11520.2488  49.7%     -    4s
+     0     0 11528.4502    0  839 22898.8947 11528.4502  49.7%     -    4s
+     0     0 11589.1545    0  769 22898.8947 11589.1545  49.4%     -    4s
+     0     0 11607.3884    0  851 22898.8947 11607.3884  49.3%     -    5s
+     0     0          -    0      22898.8947 11607.3884  49.3%     -    5s
+
+Cutting planes:
+  Gomory: 9
+  Cover: 222
+  Implied bound: 109
+  Clique: 172
+  MIR: 96
+  Flow cover: 33
+  GUB cover: 4
+  Zero half: 4
+
+Explored 0 nodes (14626 simplex iterations) in 5.27 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.289889473684e+04, best bound 1.160738947368e+04, gap 49.3103%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:55:14 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7230 rows, 3242 columns, 23483 nonzeros
+Optimize a model with 7230 rows, 3242 columns and 23483 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3543 rows and 1350 columns
+Presolve time: 0.19s
+Presolved: 3687 rows, 1892 columns, 12520 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.773959e+03, 3911 iterations, 0.23 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4773.95865    0  562 38118.6632 4773.95865  87.5%     -    0s
+H    0     0                    28718.710526 4773.95865  83.4%     -    0s
+H    0     0                    27618.752632 4773.95865  82.7%     -    0s
+     0     0 10278.9738    0  660 27618.7526 10278.9738  62.8%     -    1s
+H    0     0                    26233.736842 10278.9738  60.8%     -    1s
+     0     0 10299.4254    0  632 26233.7368 10299.4254  60.7%     -    1s
+     0     0 10487.1407    0  721 26233.7368 10487.1407  60.0%     -    1s
+H    0     0                    26038.789474 10487.1407  59.7%     -    1s
+     0     0 10552.8250    0  666 26038.7895 10552.8250  59.5%     -    1s
+     0     0 10732.2678    0  732 26038.7895 10732.2678  58.8%     -    1s
+H    0     0                    24658.689474 10732.2678  56.5%     -    1s
+     0     0 10786.6831    0  742 24658.6895 10786.6831  56.3%     -    2s
+     0     0 10939.1503    0  723 24658.6895 10939.1503  55.6%     -    2s
+     0     0 10983.4304    0  764 24658.6895 10983.4304  55.5%     -    2s
+     0     0 11404.3019    0  793 24658.6895 11404.3019  53.8%     -    2s
+     0     0 11436.7829    0  813 24658.6895 11436.7829  53.6%     -    2s
+     0     0 11618.6612    0  844 24658.6895 11618.6612  52.9%     -    2s
+H    0     0                    24658.678947 11618.6612  52.9%     -    2s
+     0     0 11675.5990    0  863 24658.6789 11675.5990  52.7%     -    3s
+     0     0 12113.3748    0  829 24658.6789 12113.3748  50.9%     -    3s
+H    0     0                    24363.731579 12113.3748  50.3%     -    3s
+     0     0 12211.5584    0  821 24363.7316 12211.5584  49.9%     -    3s
+     0     0 12231.4815    0  670 24363.7316 12231.4815  49.8%     -    4s
+H    0     0                    24128.736842 12231.4815  49.3%     -    4s
+     0     0 12246.2758    0  798 24128.7368 12246.2758  49.2%     -    4s
+     0     0 12290.5881    0  801 24128.7368 12290.5881  49.1%     -    4s
+     0     0 12290.5881    0  790 24128.7368 12290.5881  49.1%     -    4s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 186
+  Implied bound: 103
+  Clique: 183
+  MIR: 62
+  Flow cover: 25
+  GUB cover: 6
+  Zero half: 1
+
+Explored 0 nodes (13344 simplex iterations) in 4.85 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.412873684211e+04, best bound 1.229058947368e+04, gap 49.0624%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:55:38 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7230 rows, 3242 columns, 23483 nonzeros
+Optimize a model with 7230 rows, 3242 columns and 23483 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3543 rows and 1350 columns
+Presolve time: 0.21s
+Presolved: 3687 rows, 1892 columns, 12520 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.773959e+03, 3911 iterations, 0.24 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4773.95865    0  562 38118.6632 4773.95865  87.5%     -    0s
+H    0     0                    28718.710526 4773.95865  83.4%     -    0s
+H    0     0                    27618.752632 4773.95865  82.7%     -    0s
+     0     0 10278.9738    0  660 27618.7526 10278.9738  62.8%     -    1s
+H    0     0                    26233.736842 10278.9738  60.8%     -    1s
+     0     0 10299.4254    0  632 26233.7368 10299.4254  60.7%     -    1s
+     0     0 10487.1407    0  721 26233.7368 10487.1407  60.0%     -    1s
+H    0     0                    26038.789474 10487.1407  59.7%     -    1s
+     0     0 10552.8250    0  666 26038.7895 10552.8250  59.5%     -    1s
+     0     0 10732.2678    0  732 26038.7895 10732.2678  58.8%     -    1s
+H    0     0                    24658.689474 10732.2678  56.5%     -    1s
+     0     0 10786.6831    0  742 24658.6895 10786.6831  56.3%     -    1s
+     0     0 10939.1503    0  723 24658.6895 10939.1503  55.6%     -    2s
+     0     0 10983.4304    0  764 24658.6895 10983.4304  55.5%     -    2s
+     0     0 11404.3019    0  793 24658.6895 11404.3019  53.8%     -    2s
+     0     0 11436.7829    0  813 24658.6895 11436.7829  53.6%     -    2s
+     0     0 11618.6612    0  844 24658.6895 11618.6612  52.9%     -    2s
+H    0     0                    24658.678947 11618.6612  52.9%     -    2s
+     0     0 11675.5990    0  863 24658.6789 11675.5990  52.7%     -    3s
+     0     0 12113.3748    0  829 24658.6789 12113.3748  50.9%     -    3s
+H    0     0                    24363.731579 12113.3748  50.3%     -    3s
+     0     0 12211.5584    0  821 24363.7316 12211.5584  49.9%     -    3s
+     0     0 12231.4815    0  670 24363.7316 12231.4815  49.8%     -    4s
+H    0     0                    24128.736842 12231.4815  49.3%     -    4s
+     0     0 12246.2758    0  798 24128.7368 12246.2758  49.2%     -    4s
+     0     0 12290.5881    0  801 24128.7368 12290.5881  49.1%     -    4s
+     0     0 12290.5881    0  790 24128.7368 12290.5881  49.1%     -    4s
+
+Cutting planes:
+  Gomory: 7
+  Cover: 186
+  Implied bound: 103
+  Clique: 183
+  MIR: 62
+  Flow cover: 25
+  GUB cover: 6
+  Zero half: 1
+
+Explored 0 nodes (13344 simplex iterations) in 4.80 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.412873684211e+04, best bound 1.229058947368e+04, gap 49.0624%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 19:59:42 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7230 rows, 3242 columns, 23483 nonzeros
+Optimize a model with 7230 rows, 3242 columns and 23483 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3543 rows and 1350 columns
+Presolve time: 0.25s
+Presolved: 3687 rows, 1892 columns, 12520 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 36878.663158
+
+Root relaxation: objective 4.523497e+03, 4070 iterations, 0.24 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4523.49730    0  593 36878.6632 4523.49730  87.7%     -    0s
+H    0     0                    29928.284211 4523.49730  84.9%     -    0s
+H    0     0                    27618.515789 4523.49730  83.6%     -    0s
+     0     0 10004.9661    0  618 27618.5158 10004.9661  63.8%     -    1s
+H    0     0                    27318.557895 10004.9661  63.4%     -    1s
+     0     0 10053.3967    0  577 27318.5579 10053.3967  63.2%     -    1s
+     0     0 10196.0917    0  731 27318.5579 10196.0917  62.7%     -    1s
+H    0     0                    27153.563158 10196.0917  62.5%     -    1s
+     0     0 10239.2764    0  734 27153.5632 10239.2764  62.3%     -    1s
+     0     0 10406.6378    0  800 27153.5632 10406.6378  61.7%     -    1s
+H    0     0                    25958.573684 10406.6378  59.9%     -    1s
+     0     0 10421.7560    0  786 25958.5737 10421.7560  59.9%     -    2s
+     0     0 10485.1424    0  786 25958.5737 10485.1424  59.6%     -    2s
+H    0     0                    25673.626316 10485.1424  59.2%     -    2s
+     0     0 10529.8165    0  818 25673.6263 10529.8165  59.0%     -    2s
+     0     0 10796.3781    0  738 25673.6263 10796.3781  57.9%     -    2s
+H    0     0                    25673.578947 10796.3781  57.9%     -    2s
+     0     0 10832.0749    0  750 25673.5789 10832.0749  57.8%     -    2s
+     0     0 10868.2525    0  614 25673.5789 10868.2525  57.7%     -    2s
+H    0     0                    25413.578947 10868.2525  57.2%     -    2s
+     0     0 10934.9405    0  798 25413.5789 10934.9405  57.0%     -    3s
+     0     0 10995.8249    0  763 25413.5789 10995.8249  56.7%     -    3s
+H    0     0                    25083.589474 10995.8249  56.2%     -    3s
+     0     0 11038.1700    0  785 25083.5895 11038.1700  56.0%     -    3s
+     0     0 11058.9547    0  746 25083.5895 11058.9547  55.9%     -    3s
+H    0     0                    25073.589474 11058.9547  55.9%     -    3s
+     0     0 11087.0521    0  718 25073.5895 11087.0521  55.8%     -    3s
+     0     0 11100.4176    0  763 25073.5895 11100.4176  55.7%     -    3s
+     0     0 11100.4176    0  761 25073.5895 11100.4176  55.7%     -    4s
+H    0     0                    25023.594737 11100.4176  55.6%     -    4s
+H    0     0                    21603.605263 11100.4176  48.6%     -    6s
+     0     2 11100.4176    0  758 21603.6053 11100.4176  48.6%     -    7s
+    38    20 19380.7531   19  678 21603.6053 19137.4408  11.4%   369   10s
+   374   325 19715.9426   31  609 21603.6053 19158.5782  11.3%   137   15s
+H  407   271                    21243.542105 19158.5782  9.81%   136   16s
+H  612   411                    21043.521053 19222.7836  8.65%   134   19s
+   618   411 20170.5161   36  255 21043.5211 19222.7836  8.65%   136   20s
+H  643   422                    20943.457895 19222.7836  8.22%   134   20s
+H  740   474                    20943.452632 19240.2397  8.13%   125   22s
+H  744   453                    20943.447368 19240.2397  8.13%   124   25s
+H  750   434                    20833.589474 19240.2397  7.65%   123   32s
+   754   437 20339.1217   16  252 20833.5895 20339.1217  2.37%   146   35s
+   805   467 20703.9187   26  168 20833.5895 20359.0563  2.28%   154   40s
+H 1096   559                    20833.542105 20398.0789  2.09%   142   42s
+  1688   765 20643.9789   28  199 20833.5421 20489.3450  1.65%   112   45s
+  2720  1324 20664.2920   25  220 20833.5421 20524.9266  1.48%  92.0   50s
+H 3030  1529                    20833.394737 20525.8974  1.48%  91.9   51s
+H 3063  1098                    20768.400000 20525.8974  1.17%  92.1   53s
+  3422  1193     cutoff   45      20768.4000 20532.6596  1.14%  91.2   56s
+  4144  1529 20644.5802   21  285 20768.4000 20552.5745  1.04%  90.7   60s
+  5152  2010     cutoff   36      20768.4000 20574.6229  0.93%  87.3   65s
+  6396  2652 20755.5441   23  251 20768.4000 20592.7276  0.85%  83.1   72s
+  6897  2912 20603.4519   25  176 20768.4000 20595.3621  0.83%  82.7   76s
+H 7853  2404                    20738.457895 20599.4876  0.67%  79.9   79s
+* 7855  2404              96    20738.452632 20599.4876  0.67%  79.9   79s
+  8075  2556 20674.8608   34  211 20738.4526 20602.5738  0.66%  79.5   82s
+H 8442  2685                    20738.357895 20604.3941  0.65%  79.7   85s
+H 8594  2452                    20728.405263 20605.0555  0.60%  79.0   85s
+H 8941  2543                    20728.357895 20608.4188  0.58%  78.5   88s
+  9767  2975     cutoff   55      20728.3579 20614.4679  0.55%  75.9   91s
+
+Cutting planes:
+  Gomory: 19
+  Cover: 188
+  Implied bound: 132
+  Clique: 47
+  MIR: 123
+  Flow cover: 63
+  GUB cover: 11
+  Zero half: 23
+
+Explored 10896 nodes (822477 simplex iterations) in 94.23 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.072835789474e+04, best bound 2.061983755939e+04, gap 0.5235%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:04:12 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:18:54 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:19:13 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:19:57 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:34:19 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:35:45 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:37:12 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:37:34 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 20:40:56 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:17:35 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23473 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23473 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 581 rows and 193 columns
+Presolve time: 0.03s
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:18:04 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.05 seconds
+(null): 7229 rows, 3242 columns, 23473 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23473 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3544 rows and 1350 columns
+Presolve time: 0.20s
+Presolved: 3685 rows, 1892 columns, 12508 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.753154e+03, 3735 iterations, 0.22 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4753.15431    0  580 38118.6632 4753.15431  87.5%     -    0s
+H    0     0                    37728.673684 4753.15431  87.4%     -    0s
+     0     0 10222.2066    0  648 37728.6737 10222.2066  72.9%     -    0s
+H    0     0                    34818.689474 10222.2066  70.6%     -    1s
+     0     0 10271.0367    0  624 34818.6895 10271.0367  70.5%     -    1s
+     0     0 10494.6057    0  721 34818.6895 10494.6057  69.9%     -    1s
+H    0     0                    33638.694737 10494.6057  68.8%     -    1s
+     0     0 10521.0719    0  723 33638.6947 10521.0719  68.7%     -    1s
+     0     0 10830.2786    0  673 33638.6947 10830.2786  67.8%     -    1s
+H    0     0                    30953.768421 10830.2786  65.0%     -    1s
+     0     0 10896.4763    0  671 30953.7684 10896.4763  64.8%     -    2s
+     0     0 10957.9382    0  692 30953.7684 10957.9382  64.6%     -    2s
+H    0     0                    28158.810526 10957.9382  61.1%     -    2s
+     0     0 10975.0935    0  764 28158.8105 10975.0935  61.0%     -    2s
+     0     0 11051.6046    0  816 28158.8105 11051.6046  60.8%     -    2s
+     0     0 11093.4156    0  790 28158.8105 11093.4156  60.6%     -    2s
+     0     0 11151.2045    0  700 28158.8105 11151.2045  60.4%     -    2s
+H    0     0                    28158.763158 11151.2045  60.4%     -    3s
+     0     0 11173.2779    0  738 28158.7632 11173.2779  60.3%     -    3s
+     0     0 11203.7559    0  777 28158.7632 11203.7559  60.2%     -    3s
+H    0     0                    28028.810526 11203.7559  60.0%     -    3s
+     0     0 11227.2906    0  775 28028.8105 11227.2906  59.9%     -    3s
+     0     0 11268.3204    0  828 28028.8105 11268.3204  59.8%     -    3s
+     0     0 11293.0216    0  937 28028.8105 11293.0216  59.7%     -    3s
+     0     0 11380.6281    0  898 28028.8105 11380.6281  59.4%     -    4s
+     0     0 11431.6852    0  814 28028.8105 11431.6852  59.2%     -    4s
+     0     0 11473.9223    0  914 28028.8105 11473.9223  59.1%     -    4s
+H    0     0                    27408.478947 11473.9223  58.1%     -    4s
+H    0     0                    24933.700000 11473.9223  54.0%     -    4s
+     0     0 11488.5471    0  908 24933.7000 11488.5471  53.9%     -    4s
+     0     0 11499.8285    0  967 24933.7000 11499.8285  53.9%     -    4s
+     0     0 11499.8285    0  964 24933.7000 11499.8285  53.9%     -    4s
+
+Cutting planes:
+  Gomory: 8
+  Cover: 211
+  Implied bound: 118
+  Clique: 210
+  MIR: 64
+  Flow cover: 32
+  GUB cover: 4
+  Zero half: 2
+
+Explored 0 nodes (13603 simplex iterations) in 5.34 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.493370000000e+04, best bound 1.149983157895e+04, gap 53.8784%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:20:14 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.05 seconds
+(null): 7229 rows, 3242 columns, 23473 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23473 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 581 rows and 193 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.04 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:20:31 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23473 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23473 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 581 rows and 193 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:23:25 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:23:50 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:24:24 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7230 rows, 3242 columns, 23491 nonzeros
+Optimize a model with 7230 rows, 3242 columns and 23491 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 585 rows and 193 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:24:38 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23489 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23489 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3544 rows and 1350 columns
+Presolve time: 0.19s
+Presolved: 3685 rows, 1892 columns, 12508 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.753154e+03, 3735 iterations, 0.22 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4753.15431    0  580 38118.6632 4753.15431  87.5%     -    0s
+H    0     0                    37728.673684 4753.15431  87.4%     -    0s
+     0     0 10222.2066    0  648 37728.6737 10222.2066  72.9%     -    0s
+H    0     0                    34818.689474 10222.2066  70.6%     -    1s
+     0     0 10271.0367    0  624 34818.6895 10271.0367  70.5%     -    1s
+     0     0 10494.6057    0  721 34818.6895 10494.6057  69.9%     -    1s
+H    0     0                    33638.694737 10494.6057  68.8%     -    1s
+     0     0 10521.0719    0  723 33638.6947 10521.0719  68.7%     -    1s
+     0     0 10830.2786    0  673 33638.6947 10830.2786  67.8%     -    1s
+H    0     0                    30953.768421 10830.2786  65.0%     -    1s
+     0     0 10896.4763    0  671 30953.7684 10896.4763  64.8%     -    2s
+     0     0 10957.9382    0  692 30953.7684 10957.9382  64.6%     -    2s
+H    0     0                    28158.810526 10957.9382  61.1%     -    2s
+     0     0 10975.0935    0  764 28158.8105 10975.0935  61.0%     -    2s
+     0     0 11051.6046    0  816 28158.8105 11051.6046  60.8%     -    2s
+     0     0 11093.4156    0  790 28158.8105 11093.4156  60.6%     -    2s
+     0     0 11151.2045    0  700 28158.8105 11151.2045  60.4%     -    2s
+H    0     0                    28158.763158 11151.2045  60.4%     -    2s
+     0     0 11173.2779    0  738 28158.7632 11173.2779  60.3%     -    3s
+     0     0 11203.7559    0  777 28158.7632 11203.7559  60.2%     -    3s
+H    0     0                    28028.810526 11203.7559  60.0%     -    3s
+     0     0 11227.2906    0  775 28028.8105 11227.2906  59.9%     -    3s
+     0     0 11268.3204    0  828 28028.8105 11268.3204  59.8%     -    3s
+     0     0 11293.0216    0  937 28028.8105 11293.0216  59.7%     -    3s
+     0     0 11380.6281    0  898 28028.8105 11380.6281  59.4%     -    4s
+     0     0 11431.6852    0  814 28028.8105 11431.6852  59.2%     -    4s
+     0     0 11473.9223    0  914 28028.8105 11473.9223  59.1%     -    4s
+H    0     0                    27408.478947 11473.9223  58.1%     -    4s
+H    0     0                    24933.700000 11473.9223  54.0%     -    4s
+     0     0 11488.5471    0  908 24933.7000 11488.5471  53.9%     -    4s
+     0     0 11499.8285    0  967 24933.7000 11499.8285  53.9%     -    4s
+     0     0 11499.8285    0  964 24933.7000 11499.8285  53.9%     -    4s
+
+Cutting planes:
+  Gomory: 8
+  Cover: 211
+  Implied bound: 118
+  Clique: 210
+  MIR: 64
+  Flow cover: 32
+  GUB cover: 4
+  Zero half: 2
+
+Explored 0 nodes (13603 simplex iterations) in 5.62 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.493370000000e+04, best bound 1.149983157895e+04, gap 53.8784%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:26:51 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23473 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23473 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 583 rows and 193 columns
+Presolve time: 0.02s
+
+Explored 0 nodes (0 simplex iterations) in 0.03 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:29:01 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23489 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23489 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3544 rows and 1350 columns
+Presolve time: 0.20s
+Presolved: 3685 rows, 1892 columns, 12508 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.753154e+03, 3735 iterations, 0.22 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4753.15431    0  580 38118.6632 4753.15431  87.5%     -    0s
+H    0     0                    37728.673684 4753.15431  87.4%     -    0s
+     0     0 10222.2066    0  648 37728.6737 10222.2066  72.9%     -    0s
+H    0     0                    34818.689474 10222.2066  70.6%     -    1s
+     0     0 10271.0367    0  624 34818.6895 10271.0367  70.5%     -    1s
+     0     0 10494.6057    0  721 34818.6895 10494.6057  69.9%     -    1s
+H    0     0                    33638.694737 10494.6057  68.8%     -    1s
+     0     0 10521.0719    0  723 33638.6947 10521.0719  68.7%     -    1s
+     0     0 10830.2786    0  673 33638.6947 10830.2786  67.8%     -    1s
+H    0     0                    30953.768421 10830.2786  65.0%     -    1s
+     0     0 10896.4763    0  671 30953.7684 10896.4763  64.8%     -    2s
+     0     0 10957.9382    0  692 30953.7684 10957.9382  64.6%     -    2s
+H    0     0                    28158.810526 10957.9382  61.1%     -    2s
+     0     0 10975.0935    0  764 28158.8105 10975.0935  61.0%     -    2s
+     0     0 11051.6046    0  816 28158.8105 11051.6046  60.8%     -    2s
+
+Cutting planes:
+  Gomory: 8
+  Cover: 131
+  Implied bound: 85
+  Clique: 130
+  MIR: 33
+  Flow cover: 16
+  GUB cover: 4
+  Zero half: 2
+
+Explored 0 nodes (8517 simplex iterations) in 2.68 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.815881052632e+04, best bound 1.105160526316e+04, gap 60.7526%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:30:13 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:30:21 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7229 rows, 3242 columns, 23489 nonzeros
+Optimize a model with 7229 rows, 3242 columns and 23489 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3544 rows and 1350 columns
+Presolve time: 0.21s
+Presolved: 3685 rows, 1892 columns, 12508 nonzeros
+Variable types: 0 continuous, 1892 integer (1291 binary)
+Found heuristic solution: objective 38118.663158
+
+Root relaxation: objective 4.753154e+03, 3735 iterations, 0.22 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4753.15431    0  580 38118.6632 4753.15431  87.5%     -    0s
+H    0     0                    37728.673684 4753.15431  87.4%     -    0s
+     0     0 10222.2066    0  648 37728.6737 10222.2066  72.9%     -    1s
+H    0     0                    34818.689474 10222.2066  70.6%     -    1s
+     0     0 10271.0367    0  624 34818.6895 10271.0367  70.5%     -    1s
+     0     0 10494.6057    0  721 34818.6895 10494.6057  69.9%     -    1s
+H    0     0                    33638.694737 10494.6057  68.8%     -    1s
+     0     0 10521.0719    0  723 33638.6947 10521.0719  68.7%     -    1s
+     0     0 10830.2786    0  673 33638.6947 10830.2786  67.8%     -    1s
+H    0     0                    30953.768421 10830.2786  65.0%     -    1s
+     0     0 10896.4763    0  671 30953.7684 10896.4763  64.8%     -    2s
+     0     0 10957.9382    0  692 30953.7684 10957.9382  64.6%     -    2s
+H    0     0                    28158.810526 10957.9382  61.1%     -    2s
+     0     0 10975.0935    0  764 28158.8105 10975.0935  61.0%     -    2s
+     0     0 11051.6046    0  816 28158.8105 11051.6046  60.8%     -    2s
+     0     0 11093.4156    0  790 28158.8105 11093.4156  60.6%     -    2s
+     0     0 11151.2045    0  700 28158.8105 11151.2045  60.4%     -    2s
+H    0     0                    28158.763158 11151.2045  60.4%     -    3s
+     0     0 11173.2779    0  738 28158.7632 11173.2779  60.3%     -    3s
+     0     0 11203.7559    0  777 28158.7632 11203.7559  60.2%     -    3s
+H    0     0                    28028.810526 11203.7559  60.0%     -    3s
+     0     0 11227.2906    0  775 28028.8105 11227.2906  59.9%     -    3s
+     0     0          -    0      28028.8105 11227.2906  59.9%     -    3s
+
+Cutting planes:
+  Gomory: 8
+  Cover: 211
+  Implied bound: 143
+  Clique: 201
+  MIR: 78
+  Flow cover: 24
+  GUB cover: 4
+  Zero half: 6
+  Network: 3
+
+Explored 0 nodes (10614 simplex iterations) in 3.63 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.802881052632e+04, best bound 1.122729473684e+04, gap 59.9437%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:43:02 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7228 rows, 3242 columns, 23335 nonzeros
+Optimize a model with 7228 rows, 3242 columns and 23335 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3962 rows and 1563 columns
+Presolve time: 0.19s
+Presolved: 3266 rows, 1679 columns, 11069 nonzeros
+Variable types: 0 continuous, 1679 integer (1148 binary)
+
+Root relaxation: infeasible, 1782 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (1782 simplex iterations) in 0.27 seconds
+Thread count was 4 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:43:53 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7211 rows, 3242 columns, 23233 nonzeros
+Optimize a model with 7211 rows, 3242 columns and 23233 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 2809 rows and 988 columns
+Presolve time: 0.18s
+Presolved: 4402 rows, 2254 columns, 15016 nonzeros
+Variable types: 0 continuous, 2254 integer (1550 binary)
+Found heuristic solution: objective 40498.600000
+
+Root relaxation: objective 4.604057e+03, 4337 iterations, 0.29 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4604.05743    0  698 40498.6000 4604.05743  88.6%     -    0s
+H    0     0                    29798.573684 4604.05743  84.5%     -    0s
+H    0     0                    29408.642105 4604.05743  84.3%     -    0s
+     0     0 9433.65868    0  694 29408.6421 9433.65868  67.9%     -    1s
+H    0     0                    26533.568421 9433.65868  64.4%     -    1s
+     0     0 9472.28926    0  699 26533.5684 9472.28926  64.3%     -    1s
+     0     0 10372.5191    0  715 26533.5684 10372.5191  60.9%     -    1s
+H    0     0                    25128.652632 10372.5191  58.7%     -    1s
+     0     0 10403.6585    0  745 25128.6526 10403.6585  58.6%     -    1s
+     0     0 10541.9004    0  810 25128.6526 10541.9004  58.0%     -    2s
+H    0     0                    25098.694737 10541.9004  58.0%     -    2s
+     0     0 10618.2048    0  843 25098.6947 10618.2048  57.7%     -    2s
+
+Cutting planes:
+  Gomory: 10
+  Cover: 239
+  Implied bound: 150
+  Clique: 185
+  MIR: 65
+  Flow cover: 34
+  GUB cover: 5
+  Zero half: 6
+
+Explored 0 nodes (8243 simplex iterations) in 2.51 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.509869473684e+04, best bound 1.061820526316e+04, gap 57.6942%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:54:35 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:54:43 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7297 rows, 3242 columns, 23335 nonzeros
+Optimize a model with 7297 rows, 3242 columns and 23335 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3906 rows and 1541 columns
+Presolve time: 0.19s
+Presolved: 3391 rows, 1701 columns, 11179 nonzeros
+Variable types: 0 continuous, 1701 integer (1152 binary)
+
+Root relaxation: infeasible, 1929 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (1929 simplex iterations) in 0.28 seconds
+Thread count was 4 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 21:54:53 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7297 rows, 3242 columns, 23335 nonzeros
+Optimize a model with 7297 rows, 3242 columns and 23335 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+03]
+Presolve removed 3955 rows and 1541 columns
+Presolve time: 0.15s
+Presolved: 3342 rows, 1701 columns, 10346 nonzeros
+Variable types: 0 continuous, 1701 integer (1152 binary)
+
+Root relaxation: infeasible, 1832 iterations, 0.05 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0               - infeasible      -     -    0s
+
+Explored 0 nodes (1832 simplex iterations) in 0.23 seconds
+Thread count was 4 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 22:01:07 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7228 rows, 3242 columns, 23335 nonzeros
+Optimize a model with 7228 rows, 3242 columns and 23335 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 38 rows and 0 columns
+Presolve time: 0.01s
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds
+Thread count was 1 (of 4 available processors)
+
+Model is infeasible
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 22:03:02 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7228 rows, 3242 columns, 23335 nonzeros
+Optimize a model with 7228 rows, 3242 columns and 23335 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [0e+00, 0e+00]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 4983 rows and 1707 columns
+Presolve time: 0.16s
+Presolved: 2245 rows, 1535 columns, 8307 nonzeros
+Variable types: 0 continuous, 1535 integer (1022 binary)
+Found heuristic solution: objective 0.0000000
+
+Explored 0 nodes (0 simplex iterations) in 0.18 seconds
+Thread count was 4 (of 4 available processors)
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 0.000000000000e+00, best bound 0.000000000000e+00, gap 0.0%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 22:03:25 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.04 seconds
+(null): 7228 rows, 3242 columns, 23335 nonzeros
+Optimize a model with 7228 rows, 3242 columns and 23335 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [5e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 2e+02]
+Presolve removed 3962 rows and 1563 columns
+Presolve time: 0.18s
+Presolved: 3266 rows, 1679 columns, 11069 nonzeros
+Variable types: 0 continuous, 1679 integer (1148 binary)
+Found heuristic solution: objective 40758.610526
+
+Root relaxation: objective 4.947842e+03, 3392 iterations, 0.18 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 4947.84212    0  508 40758.6105 4947.84212  87.9%     -    0s
+     0     0 10495.4347    0  536 40758.6105 10495.4347  74.2%     -    0s
+H    0     0                    36973.552632 10495.4347  71.6%     -    0s
+H    0     0                    33993.721053 10495.4347  69.1%     -    0s
+     0     0 10523.9516    0  495 33993.7211 10523.9516  69.0%     -    0s
+     0     0 11554.9390    0  582 33993.7211 11554.9390  66.0%     -    1s
+H    0     0                    32433.736842 11554.9390  64.4%     -    1s
+     0     0 11657.4478    0  603 32433.7368 11657.4478  64.1%     -    1s
+     0     0 12558.0691    0  610 32433.7368 12558.0691  61.3%     -    1s
+H    0     0                    32363.736842 12558.0691  61.2%     -    1s
+     0     0 12647.2511    0  636 32363.7368 12647.2511  60.9%     -    1s
+     0     0 12736.6722    0  623 32363.7368 12736.6722  60.6%     -    1s
+H    0     0                    31123.684211 12736.6722  59.1%     -    1s
+     0     0 12775.5704    0  640 31123.6842 12775.5704  59.0%     -    1s
+     0     0 12868.1666    0  699 31123.6842 12868.1666  58.7%     -    2s
+H    0     0                    30693.689474 12868.1666  58.1%     -    2s
+     0     0 12909.2790    0  703 30693.6895 12909.2790  57.9%     -    2s
+     0     0 12991.1621    0  711 30693.6895 12991.1621  57.7%     -    2s
+H    0     0                    29423.642105 12991.1621  55.8%     -    2s
+     0     0 13010.7888    0  752 29423.6421 13010.7888  55.8%     -    2s
+     0     0 13036.8633    0  724 29423.6421 13036.8633  55.7%     -    2s
+     0     0 13036.8633    0  703 29423.6421 13036.8633  55.7%     -    2s
+H    0     0                    28198.442105 13036.8633  53.8%     -    3s
+H    0     0                    25428.621053 13036.8633  48.7%     -    3s
+H    0     0                    22888.478947 13036.8633  43.0%     -    5s
+     0     2 13036.8633    0  703 22888.4789 13036.8633  43.0%     -    5s
+H  363   205                    21753.657895 13254.9605  39.1%  76.2    8s
+   399   205 20912.9988   14  503 21753.6579 13589.1678  37.5%  89.9   10s
+   609   343 21713.6153   46  373 21753.6579 14180.5745  34.8%   115   15s
+H  656   355                    21688.473684 14180.5745  34.6%   122   16s
+   725   374 21398.8270   33  280 21688.4737 15708.6051  27.6%   125   20s
+H  726   356                    21658.468421 16384.6934  24.3%   125   20s
+H  728   339                    21628.468421 17326.6586  19.9%   125   21s
+H  730   323                    21628.421053 18367.3335  15.1%   124   22s
+H  732   308                    21618.468421 19005.6911  12.1%   124   22s
+   740   313 21355.4103   26  459 21618.4684 19291.8685  10.8%   123   25s
+   753   322 19797.9382   10  412 21618.4684 19797.9382  8.42%   121   30s
+   767   331 21283.1281   26  487 21618.4684 19925.6471  7.83%   118   35s
+
+Cutting planes:
+  Gomory: 20
+  Cover: 191
+  Implied bound: 62
+  Clique: 27
+  MIR: 86
+  Flow cover: 112
+  GUB cover: 3
+  Zero half: 18
+
+Explored 769 nodes (132001 simplex iterations) in 36.42 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 2.161846842105e+04, best bound 1.993751154616e+04, gap 7.7756%
+
+Wrote result file 'test.sol'
+

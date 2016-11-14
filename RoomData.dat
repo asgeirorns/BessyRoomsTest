@@ -156,21 +156,29 @@ G101
 
 # Ht315
 set SpecialRooms:=
-A207
+#A207
 L205
 A069
 L201
-A222
+#A222
 H209
 L204
 K-salur_b
-A225
+#A225
 A303
-H208
-A101
+#H208
+#A101
 A229
-A310
+#A310
 ;
+
+set GeneralSpecialRooms :=
+A225
+A222
+A207
+A310
+A101
+H208;
 
 set SpecialComputerRooms :=
 N166

@@ -62,10 +62,13 @@ set CidAssignSpec := setof{c in CidAssign: SpeCidCount[c] > 0} c;
 
 set Rooms;
 set SpecialRooms;
+set GeneralSpecialRooms;
 set ComputerRooms;
 set SpecialComputerRooms;
 
-set AllRooms := setof{r in (Rooms union ComputerRooms union SpecialRooms union SpecialComputerRooms)} r;
+set AllRooms := setof{r in (Rooms union ComputerRooms union SpecialRooms union SpecialComputerRooms union GeneralSpecialRooms)} r;
+
+
 
 param RoomCapacity{AllRooms} default 0;
 
@@ -90,12 +93,8 @@ param RoomPriority{AllRooms} default 3;
 # the length of an exam is needed since exams of same length should be in the same room
 param duration {CidExam} default 3;
 
-##NEW
 
-set SpeId default {};
-param SpeIdInRooms{SpeId, CidAssignSpec} within SpecialRooms default {};
 
-#param FixSpecial{CidAssignSpec,SpeID} within Rooms default {};
 
 
   # --- Decision variables ---#
@@ -126,7 +125,8 @@ subject to AssignAllCidSeats{c in CidAssign}:
 
 # Special students need special rooms:
 subject to SpecialCoursesReq{c in CidAssignSpec: c not in CidAssignComp}:
-  sum{r in SpecialRooms} h[c,r] = SpeCidCount[c];
+  sum{r in GeneralSpecialRooms} h[c,r] = SpeCidCount[c];
+
 
 # Special students need special computer rooms:
 subject to SpecialCompCoursesReq{c in CidAssignSpec: c in CidAssignComp}:
@@ -144,6 +144,7 @@ subject to RegularCoursesReq{c in CidAssign: c not in CidAssignComp}:
 # n.b. this is the total number of useful seats (reduce the number is there a "bad seats" in the room)
 subject to RoomCapacityLimit{r in AllRooms, e in SubExamSlots}:
   sum{c in CidAssign: Slot[c,e] > 0} h[c,r] <=  RoomCapacity[r];
+
 
 # A constraint for the indicator binary variable is course c in room r, the 1.0001 is a hack needed ?!
 # the sum sum{cc in CidAssign} cidCount[cc] corresponds to a big value, i.e. Big-M approach
@@ -172,12 +173,15 @@ subject to NotToFewStudents{c in CidAssign, r in Rooms: (cidCount[c]-SpeCidCount
 
 # Do not have too many different exams in the same room, more traffic from teachers
 # try to maximize the number of courses in a room !!! Helps with table assignments (different exams at each table)
-subject to NotTooManyCourse{e in SubExamSlots, r in AllRooms: r not in SpecialRooms and r not in SpecialComputerRooms}:
+subject to NotTooManyCourse{e in SubExamSlots, r in AllRooms: r not in GeneralSpecialRooms and r not in SpecialComputerRooms}:
   sum{c in CidAssign: Slot[c,e] > 0} w[c,r] <= if (RoomCapacity[r] >= 20) then 3 else 2;
 
 # The same applied to Special Courses, but here we can have more teachers entering the rooms
-subject to NotTooManyCoursesSpecial{e in SubExamSlots, r in AllRooms: r in SpecialRooms or r in SpecialComputerRooms}:
+subject to NotTooManyCoursesSpecial{e in SubExamSlots, r in AllRooms: r in GeneralSpecialRooms or r in SpecialComputerRooms}:
   sum{c in CidAssign: Slot[c,e] > 0} w[c,r]  <= 6;
+
+#subject to RightSpecialRooms{c in CidAssignSpec: card(SpeRoomReq[c])>0}: sum{rr in SpeRoomReq[c]}w[c,rr]=1;
+
 
 
 
@@ -211,9 +215,9 @@ subject to RoomOccupied{c in CidAssign, r in AllRooms}: w[c,r] <= wr[r];
 subject to EkkiLaugarvatn{c in CidAssign: 'Laugarvatn' not in RequiredBuildings[c]}:
   sum{r in RoomInBuilding['Laugarvatn']} h[c,r] = 0;
 
-subject to
 
 # Objective function
+
 minimize Objective:
 # 1.) we don't want to use Klettur and Enni (unless asked for)
 + 100 * sum{c in CidAssign, b in Building: (b == 'Klettur' or b == 'Enni') and b not in RequiredBuildings[c]} wb[c,b]
@@ -236,6 +240,7 @@ minimize Objective:
 - (1/card(CidAssign)) * sum{c in CidAssign,r in Rooms} w[c,r]
 # 10.) all else being equal use rooms with better priority (low weight here)
 + (0.1/card(CidAssign)) * sum{c in CidAssign, r in AllRooms} w[c,r] * RoomPriority[r]
+#+ 20 * sum{c in CidAssignSpec, r in SpecialRooms: c in SpeRoomReq[c]} w[c,r]
 ;
 
 # Some debugging now for the data supplied:
@@ -311,7 +316,7 @@ for {e in SubExamSlots, b in Building} {
   }
   printf : ";;;;%s;;;;%d;%d;;;\n", b, sum{rr in RoomInBuilding[b], cc in CidAssign: rr in Rooms} Slot[cc,e] * h[cc,rr], sum{rr in RoomInBuilding[b]: rr in Rooms} RoomCapacity[rr] >> "lausn.csv";
 }
-printf : "Tölvustofur;;;;;;;;;;;;\n" >> "lausn.csv";
+printf : "Tolvustofur;;;;;;;;;;;;\n" >> "lausn.csv";
 for {e in SubExamSlots, b in Building} {
   for {r in RoomInBuilding[b]: r in ComputerRooms} {
     printf {c in CidAssign: Slot[c,e] * h[c,r] > 0} : "%s;%011.0f;%s;%s;%s;%d;%d;;;;;\n", SlotNames[e], CidId[c], c, b, r, h[c,r], duration[c] >> "lausn.csv";
@@ -319,13 +324,13 @@ for {e in SubExamSlots, b in Building} {
   }
   printf : ";;;;%s;;;;%d;%d;;;\n", b, sum{rr in RoomInBuilding[b], cc in CidAssign: rr in ComputerRooms} Slot[cc,e] * h[cc,rr], sum{rr in RoomInBuilding[b]: rr in ComputerRooms} RoomCapacity[rr] >> "lausn.csv";
 }
-printf : "Sérúrræði;;;;;;;;;;;;\n" >> "lausn.csv";
+printf : "Serurraedi;;;;;;;;;;;;\n" >> "lausn.csv";
 for {e in SubExamSlots, b in Building} {
-  for {r in RoomInBuilding[b]: r in SpecialRooms} {
+  for {r in RoomInBuilding[b]: r in GeneralSpecialRooms} {
     printf {c in CidAssign: Slot[c,e] * h[c,r] > 0} : "%s;%011.0f;%s;%s;%s;%d;%d;;;;\n", SlotNames[e], CidId[c], c, b, r, h[c,r], duration[c] >> "lausn.csv";
     printf : ";;;;;%s;;;%d;%d;%d;%d\n", r, sum{cc in CidAssign} Slot[cc,e] * h[cc,r], RoomCapacity[r], sum{cc in CidAssign} w[cc,r] * Slot[cc,e], RoomPriority[r] >> "lausn.csv";
   }
-  printf : ";;;;%s;;;;%d;%d;;;\n", b, sum{rr in RoomInBuilding[b], cc in CidAssign: rr in SpecialRooms} Slot[cc,e] * h[cc,rr], sum{rr in RoomInBuilding[b]: rr in SpecialRooms} RoomCapacity[rr] >> "lausn.csv";
+  printf : ";;;;%s;;;;%d;%d;;;\n", b, sum{rr in RoomInBuilding[b], cc in CidAssign: rr in GeneralSpecialRooms} Slot[cc,e] * h[cc,rr], sum{rr in RoomInBuilding[b]: rr in GeneralSpecialRooms} RoomCapacity[rr] >> "lausn.csv";
 }
 printf : "Sérúrræði tölvustofur;;;;;;;;;\n" >> "lausn.csv";
 for {e in SubExamSlots, b in Building} {
