@@ -162,3 +162,316 @@ Best objective 3.673895294118e+04, best bound 3.557959051014e+04, gap 3.1557%
 
 Wrote result file 'test.sol'
 
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:11:37 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:12:07 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:14:14 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:14:51 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:15:07 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:27:42 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:27:49 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:28:11 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.09 seconds
+(null): 19120 rows, 5747 columns, 54510 nonzeros
+Optimize a model with 19120 rows, 5747 columns and 54510 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [3e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+02]
+Presolve removed 11151 rows and 2585 columns
+Presolve time: 0.62s
+Presolved: 7969 rows, 3162 columns, 29428 nonzeros
+Variable types: 0 continuous, 3162 integer (2140 binary)
+Found heuristic solution: objective 56788.920588
+
+Root relaxation: objective 7.896967e+03, 7514 iterations, 0.97 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 7896.96706    0 1144 56788.9206 7896.96706  86.1%     -    1s
+H    0     0                    56758.944118 7896.96706  86.1%     -    1s
+
+Cutting planes:
+  Gomory: 21
+  Cover: 259
+  Implied bound: 148
+  Clique: 140
+  MIR: 57
+  Flow cover: 33
+  GUB cover: 11
+  Zero half: 16
+
+Explored 0 nodes (7798 simplex iterations) in 2.24 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 5.675894411765e+04, best bound 7.896967647059e+03, gap 86.0868%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:28:23 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.08 seconds
+(null): 19120 rows, 5747 columns, 54510 nonzeros
+Optimize a model with 19120 rows, 5747 columns and 54510 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [3e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+02]
+Presolve removed 11151 rows and 2585 columns
+Presolve time: 0.54s
+Presolved: 7969 rows, 3162 columns, 29428 nonzeros
+Variable types: 0 continuous, 3162 integer (2140 binary)
+Found heuristic solution: objective 56788.920588
+
+Root relaxation: interrupted, 6340 iterations, 0.61 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0          -    0      56788.9206          -      -     -    1s
+
+Explored 0 nodes (6340 simplex iterations) in 1.21 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 5.678892058824e+04, best bound -, gap -
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:28:54 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:29:18 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:30:07 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:32:54 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:33:48 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:34:45 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:34:55 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:35:21 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:35:47 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Read LP format model from file TEST.lp
+Reading time = 0.09 seconds
+(null): 19120 rows, 5747 columns, 54510 nonzeros
+Optimize a model with 19120 rows, 5747 columns and 54510 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+04]
+  Objective range [3e-03, 1e+03]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [1e+00, 1e+02]
+Presolve removed 11151 rows and 2585 columns
+Presolve time: 0.61s
+Presolved: 7969 rows, 3162 columns, 29428 nonzeros
+Variable types: 0 continuous, 3162 integer (2140 binary)
+Found heuristic solution: objective 56788.920588
+
+Root relaxation: objective 7.896967e+03, 7514 iterations, 0.95 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 7896.96706    0 1144 56788.9206 7896.96706  86.1%     -    1s
+H    0     0                    56758.944118 7896.96706  86.1%     -    1s
+     0     0          -    0      56758.9441 7896.96706  86.1%     -    3s
+
+Cutting planes:
+  Gomory: 21
+  Cover: 259
+  Implied bound: 148
+  Clique: 140
+  MIR: 57
+  Flow cover: 33
+  GUB cover: 11
+  Zero half: 16
+
+Explored 0 nodes (9392 simplex iterations) in 3.09 seconds
+Thread count was 4 (of 4 available processors)
+
+Solve interrupted
+Best objective 5.675894411765e+04, best bound 7.896967647059e+03, gap 86.0868%
+
+Wrote result file 'test.sol'
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Nov 14 18:42:01 2016
+
+Set parameter TimeLimit to value 300
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'TEST.lp' for input
+

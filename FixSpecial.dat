@@ -1,0 +1,4 @@
+set SpeId :=
+1609834269;
+
+param SpeIdInRooms[1609834269, LEI103G] :=A225 A222;

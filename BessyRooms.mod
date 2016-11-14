@@ -23,7 +23,7 @@ param Slot {CidExam, ExamSlots} binary, default 0;
 param SlotNames{ExamSlots}, symbolic;
 
 # It is not necessary to solve all slots at once, select the one you want.
-param SolveSlot default 4;
+param SolveSlot default 17;
 set SubExamSlots within ExamSlots := setof{e in ExamSlots: e == SolveSlot} e;
 
 # Set of all Computer Courses
@@ -48,6 +48,8 @@ param CidId{CidExam} default 0;
 
 # Total number of special students for each course
 param SpeCidCount{CidExam} default 0;
+
+
 
 # These are the subset of stusints within CidAssign that belong to special groups: Computer and Special
 set CidAssignComp := setof{c in ComputerCourses: c not in CidMHR and c in CidAssign} c;
@@ -88,7 +90,15 @@ param RoomPriority{AllRooms} default 3;
 # the length of an exam is needed since exams of same length should be in the same room
 param duration {CidExam} default 3;
 
-# --- Decision variables ---#
+##NEW
+
+set SpeId default {};
+param SpeIdInRooms{SpeId, CidAssignSpec} within SpecialRooms default {};
+
+#param FixSpecial{CidAssignSpec,SpeID} within Rooms default {};
+
+
+  # --- Decision variables ---#
 
 # The decision variable is to assign an exam to an exam slot (later we may add room assignments)
 var h {c in CidAssign, r in AllRooms} >= 0, integer;
@@ -169,6 +179,8 @@ subject to NotTooManyCourse{e in SubExamSlots, r in AllRooms: r not in SpecialRo
 subject to NotTooManyCoursesSpecial{e in SubExamSlots, r in AllRooms: r in SpecialRooms or r in SpecialComputerRooms}:
   sum{c in CidAssign: Slot[c,e] > 0} w[c,r]  <= 6;
 
+
+
 # A constraint for the indicator binary variable is course c in building b, the 1.0001 is a hack needed ?!
 subject to IsCidInBuilding{c in CidAssign, b in Building}:
   1.0001 * sum{r in RoomInBuilding[b]} w[c,r] <= wb[c,b] * 10000;
@@ -198,6 +210,8 @@ subject to RoomOccupied{c in CidAssign, r in AllRooms}: w[c,r] <= wr[r];
 # Special condition for Laugarvatn, too far away ;)
 subject to EkkiLaugarvatn{c in CidAssign: 'Laugarvatn' not in RequiredBuildings[c]}:
   sum{r in RoomInBuilding['Laugarvatn']} h[c,r] = 0;
+
+subject to
 
 # Objective function
 minimize Objective:
