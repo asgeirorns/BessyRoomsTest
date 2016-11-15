@@ -89,7 +89,7 @@ Stofa_2 22
 V261 30
 K207 25
 V138 18
-#Ht315 1
+Ht315 1
 E203C 50
 E103C 50
 N131 30
@@ -170,6 +170,7 @@ A303
 #A101
 A229
 #A310
+Ht315
 ;
 
 set GeneralSpecialRooms :=
@@ -204,7 +205,7 @@ Stofa_2 2
 V261 1
 K207 3
 V138 2
-#Ht315 2
+Ht315 3
 E203C 1
 E103C 1
 N131 2
@@ -263,7 +264,7 @@ O102 1
 set RoomInBuilding['NyjiGardur']:=NG014 NG015;
 set RoomInBuilding['Logberg']:=L102 L103 L201 L204 L205;
 set RoomInBuilding['Oddi']:=O102 O103 O201 O202 O301;
-set RoomInBuilding['Haskolatorg']:=Ht102 Ht103 Ht104 Ht105 Ht204 Ht302;
+set RoomInBuilding['Haskolatorg']:=Ht102 Ht103 Ht104 Ht105 Ht204 Ht302 Ht315;
 set RoomInBuilding['Laugarvatn']:=K-salur K-salur_b Stofa_2;
 set RoomInBuilding['Adalbygging']:=A050 A051 A052 A069 A207 A218 A222 A225 A229;
 set RoomInBuilding['Enni']:=E301 E303;

@@ -68,7 +68,7 @@ set SpecialComputerRooms;
 
 set AllRooms := setof{r in (Rooms union ComputerRooms union SpecialRooms union SpecialComputerRooms union GeneralSpecialRooms)} r;
 
-
+set AllSpecialRooms := setof{s in (SpecialRooms union GeneralSpecialRooms)}s;
 
 param RoomCapacity{AllRooms} default 0;
 
@@ -96,8 +96,11 @@ param duration {CidExam} default 3;
 #Ids for special students
 set Sid;
 
-#Ids for special student registeration
+#Binary values for Ids for special student registeration in a each
 param SidInCourse{Sid, CidAssignSpec} default 0;
+
+#Special Room Requirement for each ID
+set SRR{Sid} within AllSpecialRooms default {};
 
 
 
@@ -107,6 +110,9 @@ param SidInCourse{Sid, CidAssignSpec} default 0;
 # The decision variable is to assign an exam to an exam slot (later we may add room assignments)
 var h {c in CidAssign, r in AllRooms} >= 0, integer;
 # indicator variable tells us if a course is assigned to a room
+
+var hs {s in Sid, r in AllSpecialRooms} >=0, integer;
+
 var w {c in CidAssign, r in AllRooms}, >= 0, <= 1, binary;
 # indicator variable tells us if a course is within a building
 var wb{CidAssign, Building}, >= 0, <= 1, binary;
@@ -115,6 +121,7 @@ var wb{CidAssign, Building}, >= 0, <= 1, binary;
 var wr{AllRooms}, >= 0;
 
 # --- Constraints --- #
+
 
 # if you would like to fix a decision do it here with parameter h_fix > 0
 subject to FixH{c in CidAssign, r in AllRooms: hfix[c,r] > 0}:
@@ -130,7 +137,7 @@ subject to AssignAllCidSeats{c in CidAssign}:
 
 ##NEW Special students need special rooms:
 subject to SpecialCoursesReq{c in CidAssignSpec: c not in CidAssignComp}:
-  sum{r in GeneralSpecialRooms} h[c,r] = SpeCidCount[c];
+  sum{r in AllSpecialRooms} h[c,r] = SpeCidCount[c];
 
 
 # Special students need special computer rooms:
@@ -157,6 +164,9 @@ subject to CourseInRoom{c in CidAssign, r in AllRooms}:
   1.0001*h[c,r] <= w[c,r] * sum{cc in CidAssign} cidCount[cc];
 subject to CourseInRoom2{c in CidAssign, r in AllRooms}:
   1.0001*h[c,r] >= w[c,r];
+
+#subject to CourseInRoom3{c in CidAssignSpec, r in AllSpecialRooms}:
+#  1.001*h[c,r] <=
 
 # Don't put courses that do not have the same length (duration) in the same room
 subject to NotTheSameRoom{r in AllRooms, c1 in CidAssign, c2 in CidAssign: c1 < c2 and duration[c1]!=duration[c2]}:
@@ -185,6 +195,9 @@ subject to NotTooManyCourse{e in SubExamSlots, r in AllRooms: r not in GeneralSp
 subject to NotTooManyCoursesSpecial{e in SubExamSlots, r in AllRooms: r in GeneralSpecialRooms or r in SpecialComputerRooms}:
   sum{c in CidAssign: Slot[c,e] > 0} w[c,r]  <= 6;
 
+
+  subject to RequiredSpecialRooms{s in Sid: card(SRR[s])>0}:
+    sum{r in SRR[s], c in CidAssignSpec} SidInCourse[s,c]*h[c,r]=1;
 
 
 
@@ -220,6 +233,9 @@ subject to EkkiLaugarvatn{c in CidAssign: 'Laugarvatn' not in RequiredBuildings[
   sum{r in RoomInBuilding['Laugarvatn']} h[c,r] = 0;
 
 
+
+
+
 # Objective function
 
 minimize Objective:
@@ -249,11 +265,12 @@ minimize Objective:
 
 # Some debugging now for the data supplied:
 set UnionOfRoomsInBuildings := setof{b in Building, r in RoomInBuilding[b]} r;
-check card(UnionOfRoomsInBuildings) == card(AllRooms);
+#check card(UnionOfRoomsInBuildings) == card(AllRooms);
 check {c in CidAssign} cidCount[c] >= SpeCidCount[c];
 
 # Solve the model
 solve;
+
 
 # More debugging stuff to follow:
 for {r in AllRooms: r not in UnionOfRoomsInBuildings} {

@@ -1,10 +1,11 @@
-#set SpeRoomReq[LEI103G] := A225, A222, A207, A310, A101, H208;
-
-#param sidReg :=
-#[0410893189,FER246,LAN306G] := 1
 
 set Sid :=
-1609834269;
+1
+2;
 
 param SidInCourse :=
-[1609834269,LEI103G] := 1;
+[1,LEI103G] := 1
+[2,HAG304G] :=1;
+
+set SRR[1] :=A225, A222, A207, A310, A101, H208;
+set SRR[2] :=	Ht315;
