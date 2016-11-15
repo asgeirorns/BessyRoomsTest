@@ -93,6 +93,11 @@ param RoomPriority{AllRooms} default 3;
 # the length of an exam is needed since exams of same length should be in the same room
 param duration {CidExam} default 3;
 
+#Ids for special students
+set Sid;
+
+#Ids for special student registeration
+param SidInCourse{Sid, CidAssignSpec} default 0;
 
 
 
@@ -180,7 +185,6 @@ subject to NotTooManyCourse{e in SubExamSlots, r in AllRooms: r not in GeneralSp
 subject to NotTooManyCoursesSpecial{e in SubExamSlots, r in AllRooms: r in GeneralSpecialRooms or r in SpecialComputerRooms}:
   sum{c in CidAssign: Slot[c,e] > 0} w[c,r]  <= 6;
 
-#subject to RightSpecialRooms{c in CidAssignSpec: card(SpeRoomReq[c])>0}: sum{rr in SpeRoomReq[c]}w[c,rr]=1;
 
 
 
