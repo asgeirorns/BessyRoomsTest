@@ -123,7 +123,7 @@ subject to FixD{c in CidAssign, r in AllRooms: hdef[c,r] > 0}:
 subject to AssignAllCidSeats{c in CidAssign}:
   sum{r in AllRooms} h[c,r] = cidCount[c];
 
-# Special students need special rooms:
+##NEW Special students need special rooms:
 subject to SpecialCoursesReq{c in CidAssignSpec: c not in CidAssignComp}:
   sum{r in GeneralSpecialRooms} h[c,r] = SpeCidCount[c];
 
